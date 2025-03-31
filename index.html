@@ -17,6 +17,7 @@
             align-items: center;
             height: 100vh;
             background-color: #f0f2f5;
+            position: relative;
         }
         .container {
             text-align: center;
@@ -71,6 +72,19 @@
         .cool-btn:hover::before {
             left: 100%;
         }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            font-size: 0.7rem;
+            color: #999;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .footer:hover {
+            color: #666;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +92,7 @@
         <h1>飯的屁眼很小，導致他無法排便。</h1>
         <p>怎麼辦呢? 因此他透過遊玩馬桶伺服器，體驗順暢無比。</p>
         <button class="cool-btn" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')">立刻遊玩</button>
+        <div class="footer" onclick="window.open('https://github.com/nelsonGX/toiletw.net', '_blank')">site by Nelson.</div>
     </div>
 </body>
 </html>
