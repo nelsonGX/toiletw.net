@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="馬桶伺服器官網">
+    <meta property="og:description" content="歡迎來到馬桶伺服器。我們提供給玩家完善、豐富的如廁體驗；便捷、易於理解的免治功能；簡單、有用的排便資源，給予馬桶愛好者中文社群更加多元、更加不同的沖洗方向與排水模式。">
+    <meta property="og:type" content="website">
+    <title>馬桶伺服器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 5rem;
+            color: #333;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        p {
+            font-size: 1.5rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+        .cool-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 8px 15px rgba(255, 65, 108, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .cool-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 20px rgba(255, 65, 108, 0.4);
+        }
+        .cool-btn:active {
+            transform: translateY(2px);
+        }
+        .cool-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: all 0.5s ease;
+        }
+        .cool-btn:hover::before {
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>飯的屁眼很小，導致他無法排便。</h1>
+        <p>怎麼辦呢? 因此他透過遊玩馬桶伺服器，體驗順暢無比。</p>
+        <button class="cool-btn" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')">立刻遊玩</button>
+    </div>
+</body>
+</html>
